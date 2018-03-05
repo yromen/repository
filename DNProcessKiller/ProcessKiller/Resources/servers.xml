@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+ <servers>
+  <server Type="服务器" Index="1">
+     <Name>华南电信一区</Name>
+     <IpAddress>14.152.76.98</IpAddress>
+     <Port>14514</Port>
+   </server>
+ </servers>

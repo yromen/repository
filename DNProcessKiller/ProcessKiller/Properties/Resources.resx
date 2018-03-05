@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Program_ShowAdminErrorDialogBox_AdminPrivilegeMessage" xml:space="preserve">
+    <value>请右键以管理员身份打开此程序</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>小猪双开器</value>
+  </data>
+  <data name="MainForm_InitializeButtons_ClickToKillProcessHighlightedMessage" xml:space="preserve">
+    <value>点我或按键断开连接</value>
+  </data>
+  <data name="MainForm_InitializeButtons_ClickToKillProcessMessage" xml:space="preserve">
+    <value>点我断开连接</value>
+  </data>
+  <data name="MainForm_button_click_KillingProcessMessage" xml:space="preserve">
+    <value>正在断开连接中...</value>
+  </data>
+  <data name="MainForm_InitializeCopyRightLabel_CopyrightMessage" xml:space="preserve">
+    <value>作者 柒才  更新者 双私</value>
+  </data>
+  <data name="MainForm_InitializeVersionLabel_Version" xml:space="preserve">
+    <value>当前版本:</value>
+  </data>
+  <data name="MainForm_GetProcessButton_ProcessButtonTitle" xml:space="preserve">
+    <value>点我切换至该窗口</value>
+  </data>
+  <data name="MainForm_GetProcessButton_ProcessButtonHighlightedTitle" xml:space="preserve">
+    <value>当前窗口</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainForm_GetSettingsButton_SettingsButtonTitle" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="MainForm_GetStartGameButton_title" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="DragonNest_Exe_Name" xml:space="preserve">
+    <value>DragonNest</value>
+  </data>
+  <data name="DragonNest_LauncherExe_Name" xml:space="preserve">
+    <value>dnlauncher</value>
+  </data>
+  <data name="DragonNest_Registry_Path" xml:space="preserve">
+    <value>SOFTWARE\WOW6432Node\shandagames\DragonNest</value>
+  </data>
+  <data name="handle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handle.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="servers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\servers.ini;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="WINNT_AppCompatFlags_Registry_Path" xml:space="preserve">
+    <value>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers</value>
+  </data>
+  <data name="SettingsForm_PathSelection_Description" xml:space="preserve">
+    <value>请选择龙之谷游戏文件夹(包含游戏启动程序的根目录)</value>
+  </data>
+  <data name="SettingsForm_PathSelection_InvalidPath_Message" xml:space="preserve">
+    <value>未在该目录下发现龙之谷启动程序，请选择含有龙之谷启动程序的游戏目录</value>
+  </data>
+  <data name="MainForm_start_game_button_game_start_message" xml:space="preserve">
+    <value>游戏启动中...</value>
+  </data>
+  <data name="DNExe_NotFound_Message" xml:space="preserve">
+    <value>未找到龙之谷主程序路径[DragonNest.exe], 请在设置中手动添加主程序路径</value>
+  </data>
+  <data name="DNServer_NotFound_Message" xml:space="preserve">
+    <value>服务器未选择，请在设置中选择大区</value>
+  </data>
+  <data name="MainForm_start_game_button_first_click_message" xml:space="preserve">
+    <value>如果需要多开，请等游戏完全启动或登陆后再点击启动游戏按钮</value>
+  </data>
+  <data name="Application_Web_HomePage" xml:space="preserve">
+    <value>http://bbs.duowan.com/thread-45386278-1-1.html</value>
+  </data>
+  <data name="MainForm_GetNewVersionDownloadLinkLabel_NewVersionFound_Message" xml:space="preserve">
+    <value>发现新版本:</value>
+  </data>
+  <data name="Application_PublishDate" xml:space="preserve">
+    <value>(12/12/2017)</value>
+  </data>
+  <data name="MainForm_GetNewVersionDownloadLinkLabel_NewVersionFound_Message_End" xml:space="preserve">
+    <value>点击前往下载页</value>
+  </data>
+  <data name="SettingsForm_DisableProcessKillCheckBox_CheckedChanged_Warnning" xml:space="preserve">
+    <value>使用秒掉功能会增加封号风险，请慎重使用，如果被反外挂发现，请立即停止使用</value>
+  </data>
+  <data name="SettingsForm_InvalidField_CountDownTime" xml:space="preserve">
+    <value>时间设置必须大于0</value>
+  </data>
+  <data name="SettingsForm_InvalidField_CountDownWarnningTime" xml:space="preserve">
+    <value>想啥呢？提示时间必须小于倒计时时间 (mdzz)</value>
+  </data>
+  <data name="MainForm_HelpButton_Message" xml:space="preserve">
+    <value>有问题或者有疑问先看帖子，还有问题的话加群来问吧，群号: 610614351</value>
+  </data>
+  <data name="ProcessButton_DisconnectExistingTCPConnections_ErrorMessage" xml:space="preserve">
+    <value>掉线时出现问题： </value>
+  </data>
+  <data name="SettingsForm_InvalidField_ipsetting" xml:space="preserve">
+    <value>服务器设置手动模式下必须设置大区和Ip和端口！</value>
+  </data>
+</root>
